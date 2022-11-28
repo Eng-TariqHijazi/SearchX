@@ -1,0 +1,48 @@
+.why-section {
+  background-color: #09b878;
+  height: 884px;
+}
+.Why-content {
+  padding-top: 116px;
+}
+.Why-content img {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+.content-text {
+  float: right;
+  width: 45%;
+  color: #fff;
+  height: 76vh;
+}
+.content-text .title {
+  font-size: 34px;
+  line-height: 42px;
+  letter-spacing: -1.1%;
+}
+.line {
+  width: 50px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px;
+}
+.content-text .para {
+  font-size: 22px;
+  line-height: 36px;
+  margin: 20px 0;
+}
+
+.services p {
+  font-size: 20px;
+  font-weight:100 ;
+}
+.services {
+  display: flex;
+  margin: 20px 0;
+  flex-direction: row;
+}
+.services Icon {
+  float: left;
+  width: 50px;
+}

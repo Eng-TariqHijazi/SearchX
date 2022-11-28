@@ -1,0 +1,71 @@
+.Strategic-section {
+  background-color: #09b878;
+  color: #fff;
+}
+.Strategic-section .container{
+    height: 650px;
+}
+.Strategic-content .title {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 166px;
+  font-size: 36px;
+}
+.Strategic-content .lorem {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+}
+.Strategic-content .title p {
+  margin-left: 10px;
+}
+.Strategic-content .title b::after {
+  content: "";
+  width: 45px;
+  height: 5px;
+  background-color: #07d68b;
+  position: absolute;
+  margin: 52px -165px;
+}
+.cards {
+  display: flex;
+  width: 330px;
+  height: 157.5px;
+  background-color: #fff;
+  margin-left: 20px;
+  border: 1px solid rgba(20, 20, 20, 0.1);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.cards-container {
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 58px;
+}
+.cards:first-child img {
+  width: 95px;
+  height: 98px;
+}
+.cards:nth-child(2) img{
+  width: 190px;
+  height: 48px;
+}
+.cards:nth-child(3) img{
+  width: 209px;
+  height: 42px;
+}
+.cards{
+  flex: 1 1 100px;
+  margin-top: 20px;
+  min-width: 300px;
+  max-width: 300px;
+}

@@ -1,0 +1,82 @@
+.industry_section {
+  height: 834px;
+}
+.title-head {
+position: absolute;
+left: 272px;
+}
+.title-head .title {
+  margin: 111px 0;
+  font-weight: 400;
+  font-size: 36px;
+  color: #004a36;
+}
+.title-head .title b {
+  font-weight: bold;
+}
+.title-head .title b::after {
+  content: "";
+  width: 47px;
+  height: 7px;
+  background-color: #07d68b;
+  position: absolute;
+  margin: 52px -70px;
+}
+.industry_section .slider li.slide div img,.industry_section .slider li.slide div  {
+  min-height: 377px !important;
+  display: inline-block;
+  height: 377px !important;
+  
+  min-width: 100% !important;
+}
+.industry_section .slider li.slide{
+  min-width: 45% !important;
+
+}
+.industry_section .slider li{
+    margin:  240px 2% ;
+}
+.industry_section .selected li{
+    margin:  0 50px 0 50px ;
+}
+.industry_section .slider li.previous div img,.industry_section .slider li.previous div {
+   height: 377px !important;
+    width: 100% !important;
+  }
+  .industry_section .slider li.previous{
+  width: 40% !important;
+
+}
+.industry_section .carousel-slider{
+    height:  834px !important; 
+   }
+.industry_section .slider li.selected div img,.industry_section .slider li.selected div   {
+  min-width: 100% !important;
+  min-height: 453px !important;
+}
+.industry_section .slider li.selected{
+  min-width: 70% !important;
+}
+.carousel .control-next.control-arrow{
+    right: 9% ;
+    background-color: #FFF;
+    width: 70px;
+    margin-top: 110px;
+    border: 1px #004A36 solid;
+}
+.carousel .control-next.control-arrow:hover,.carousel .control-prev.control-arrow:hover{
+    background-color: #FFF;
+    
+}
+.control-arrow{
+    padding: 20px;
+}
+.carousel .control-prev.control-arrow{
+    border: 1px #004A36 solid;
+    margin-top: 110px;
+    left: 73% ;
+    width: 70px;
+}
+.carousel .control-next.control-arrow:before,.carousel .control-prev.control-arrow::before {
+    border-color: #FFF #004A36    ;
+}

@@ -1,0 +1,33 @@
+.home-section {
+  background-image: url("../../assets/Backgroundx.png");
+  background-size: cover;
+  background-position: top;
+  height: 1124px;
+}
+/* Background */
+.container{
+    width: 85%;
+    margin: auto;
+}
+.home-content .title {
+  color: #FFF;
+  font-size: 42px;
+}
+.home-content .home-desc {
+    color: #FFF;
+    font-size: 18px;
+}
+.home-content{
+    width: 350px;
+    padding-top: 27%;
+}
+.home-content b::after{
+    content: "";
+    position: absolute;
+    margin: 53px 0px 0 -28px;
+
+    width: 27px;
+    background-color: #07d68b;
+    height: 4px;
+
+}

@@ -1,0 +1,54 @@
+.speak-section {
+  height: 524px;
+  background-color: #f3fbfd;
+  justify-content: center;
+  display: flex;
+}
+.speak-content {
+  text-align: center;
+  color: #004a36;
+}
+.speak-content > b {
+  font-size: 32px;
+  letter-spacing: -1.1px;
+  line-height: 38px;
+}
+.speak-content p {
+  font-size: 26px;
+  line-height: 38px;
+  margin: 29px 0;
+}
+button {
+  margin-top: 10px;
+  width: 238px;
+  height: 67px;
+  border: 1px solid #004a36;
+  border-radius: 55.5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.011em;
+  background-color: #f3fbfd;
+  color: #004a36;
+  line-height: 24px;
+}
+button b {
+  position: absolute;
+  margin: -2px 6px;
+  font-size: 22px;
+  color: #141414;
+}
+button b::after {
+  content: "";
+  width: 15px;
+  height: 2.14px;
+  background-color: #141414;
+  position: absolute;
+  margin: 23px -15px;
+}
+button:hover{
+    background-color: #004a36;
+    color: #FFF;
+    cursor: pointer;
+}
